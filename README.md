@@ -13,6 +13,7 @@ They are mutually exclusive, and only one can be correct.
 ## 🔗 Links
 
 - [Dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset)
+- [Medium Article](https://medium.com/@sudhanshurastogi/statistical-hypothesis-testing-in-applied-machine-learning-c4952d59dd29)
 - [Kaggle Notebook](https://www.kaggle.com/code/sudhanshu2198/statistical-hypothesis-testing-in-ml)
 
 ## 🛠 Frameworks
