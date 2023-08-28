@@ -1,6 +1,6 @@
 
 
-# Electricity Demand Prediction using SARIMA
+# Statistical Hypothesis Testing in ML
 
 Hypothesis Testing is a type of statistical analysis in which you put your assumptions about a population parameter to the test. It is used to estimate the relationship between 2 statistical variables and to present evidence of the plausibility of the null hypothesis.
 
