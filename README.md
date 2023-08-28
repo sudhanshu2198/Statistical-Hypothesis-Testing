@@ -23,7 +23,8 @@ Numpy, Pandas, Matplotlib, Seaborn, Scikit-learn, Scipy
 ### Normality Test
 - An important decision point when working with a sample of data is whether to use parametric or nonparametric statistical methods. Parametric statistical methods assume that the data has a known and specific distribution, often a Gaussian distribution. If a data sample is not Gaussian, then the assumptions of parametric statistical tests are violated and nonparametric statistical methods must be used.
 - There are a range of techniques that you can use to check if your data sample deviates from a Gaussian distribution, called normality tests.
-
+![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/1.PNG)
+![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/2.PNG)
 ### Non Parametric Variables
 We have six month data for Bill amount(BILL_AMT), payment amount(PAY_AMT) and payment repayment status(PAY), we want to know if the variables are redundant (that they provide same information there is no value addition) and irrelavent (they do not affect the target variable)
 
@@ -38,9 +39,20 @@ The Chi-Squared test is a statistical hypothesis test that assumes (the null hyp
 - Ho: Variables are independent
 - H1: Variables are dependent
 
+  ![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/5.PNG)
+  ![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/6.PNG)
+  ![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/7.PNG)
+
 ### ANOVA
 ANOVA Test could be used to determine whether the different model performances scores have different or same distribution. ANOVA is a statistical test that assumes that the mean across 2 or more groups are equal. If the evidence suggests that this is not the case, the null hypothesis is rejected and at least one data sample has a different distribution.
 
+![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/8.PNG)
+![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/9.PNG)
+![](https://github.com/sudhanshu2198/Statistical-Hypothesis-Testing/blob/main/images/10.PNG)
+
+- LightGBM performs best among other models.
+- KNNClassifier performs poorly and is highly underconfident for predicting positive class.
+- LightGBM, XGB, Random Forest, Logistic Regression classifiers have learned the underlying structure but are underconfident with high probabilities, therefore there performance can be increased by using probability calibration.
 
 
 
